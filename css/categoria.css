@@ -1,0 +1,44 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: auto;
+}
+
+.categories .section-title h2 {
+  width: 312px;
+  margin: 0;
+  padding: 0;
+}
+
+.categoires-card {
+  background-color: var(--background-secondary-color);
+  width: 312px;
+  height: 220px;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+.categoires-card header {
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  align-items: center;
+  position: static;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.categoires-card a {
+  margin: 0 auto;
+}
+
+.categoires-card h4 {
+  font-weight: var(--title-weight);
+  font-size: 28px;
+  font-family: "Montserrat";
+  text-align: center;
+}

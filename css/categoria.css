@@ -1,14 +1,14 @@
-.categories {
+.seach-categories {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 24px;
-  margin-top: auto;
+  justify-content: center;
 }
 
-.categories .section-title h2 {
+.categories .section-title h3 {
   width: 312px;
-  margin: 0;
+  font-size: 32px;
+  font-weight: var(--title-weight);
   padding: 0;
 }
 
@@ -41,4 +41,20 @@
   font-size: 28px;
   font-family: "Montserrat";
   text-align: center;
+}
+
+@media screen and (min-width: 720px) {
+  .seach-categories {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .categories .section-title h2 {
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .categoires-card {
+    width: 300px;
+  }
 }

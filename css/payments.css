@@ -1,0 +1,101 @@
+.payments .sessao-desk {
+  display: flex;
+  flex-direction: column;
+}
+
+.payments .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "img1 img2"
+    "img3 img3";
+  width: 100%;
+  gap: 24px;
+  height: 460px;
+}
+
+.payments .image-first {
+  background: url(../img/grid-bala-aberta-com-roupas-mobile.png) no-repeat;
+  background-size: cover;
+  grid-area: img1;
+}
+
+.payments .image-thirdy-colaspan-2 {
+  grid-area: img2;
+  background: url(../img/grid-dois-passaportes-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .image-second {
+  background: url(../img/grid-duas-mulhes-e-ponte-mobile.png) no-repeat;
+  background-size: cover;
+  grid-area: img3;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .image-first {
+    background: url(../img/grid-bala-aberta-com-roupas-tablet.png) no-repeat;
+    background-size: cover;
+    grid-area: img1;
+  }
+
+  .payments .image-thirdy-colaspan-2 {
+    grid-area: img2;
+    background: url(../img/grid-dois-passaportes-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-second {
+    background: url(../img/grid-duas-mulhes-e-ponte-tablet.png) no-repeat;
+    background-size: cover;
+    grid-area: img3;
+  }
+
+  .payments .image-gallery {
+    width: 648px;
+  }
+
+  .payments .text-content {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 440px) {
+  .payments .sessao-desk {
+    justify-content: space-between;
+  }
+  .payments .sessao-desk .text-content {
+    width: 360px;
+  }
+
+  .payments .sessao-desk .image-gallery {
+    width: 790px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments .image-gallery {
+    width: 790px;
+  }
+  .payments .sessao-desk {
+    flex-direction: row;
+  }
+
+  .payments .image-first {
+    background: url(../img/grid-bala-aberta-com-roupas-desktop.png) no-repeat;
+    background-size: cover;
+    grid-area: img1;
+  }
+
+  .payments .image-thirdy-colaspan-2 {
+    grid-area: img2;
+    background: url(../img/grid-dois-passaportes-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-second {
+    background: url(../img/grid-duas-mulhes-e-ponte-desktop.png) no-repeat;
+    background-size: cover;
+    grid-area: img3;
+  }
+}

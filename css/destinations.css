@@ -6,16 +6,10 @@
   margin: 0 auto;
 }
 
+
+
 .destinations .button {
   width: 100%;
-}
-
-.destinations .item p {
-  margin-bottom: 24px;
-}
-
-.destination .item header h3 {
-  margin: 24px 0;
 }
 
 .destination-items a {

@@ -12,9 +12,10 @@
   text-align: center;
 }
 
-.main-footer .footer-content img {
+.main-foote section  .footer-content img {
   margin-bottom: 16px;
 }
+
 
 .main-footer p {
   color: var(--text-secondary-color);

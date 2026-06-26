@@ -1,0 +1,63 @@
+.list-link .select-page a {
+  text-decoration: underline;
+}
+
+.hero article {
+  color: var(--background-primary-color);
+  position: relative;
+}
+
+.hero .intro {
+  position: absolute;
+  top: 65px;
+  left: 24px;
+}
+
+.hero .intro .section-title h2 {
+  font-size: 48px;
+  text-align: justify;
+}
+
+.hero .intro .section-title p {
+  line-height: 32px;
+  font-size: 20px;
+}
+
+.hero .pack {
+  background: url(../img/montanha-mobile.jpg) no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+.section-title hr {
+  margin: 16px 10px 32px;
+}
+
+@media screen and (min-width: 720px) {
+  .hero .pack {
+    background: url(../img/montanha-tablet.jpg) no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+  .hero .intro {
+    position: absolute;
+    top: 200px;
+    margin: 0 120px 69px;
+  }
+  .hero .intro .section-title p {
+    line-height: 1.5;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero .pack {
+    background: url(../img/montanha-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+  .hero .intro .section-title p {
+    width: 579px;
+  }
+}
+
+

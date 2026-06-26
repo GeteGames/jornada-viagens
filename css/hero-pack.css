@@ -1,5 +1,10 @@
+
 .list-link .select-page a {
   text-decoration: underline;
+}
+
+section {
+  margin: 88px auto 88px;
 }
 
 .hero article {
@@ -29,7 +34,7 @@
   height: 460px;
 }
 
-.section-title hr {
+.hero .intro .section-title hr {
   margin: 16px 10px 32px;
 }
 

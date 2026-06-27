@@ -1,0 +1,30 @@
+.payments footer a {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.payments .image-first-pack {
+  background: url(../img/grid-casa-tradicional-japaomobile.jpg) no-repeat;
+  background-size: cover;
+  grid-area: img1;
+}
+
+.payments .image-thirdy-colaspan-2-pack {
+  grid-area: img2;
+  background: url(../img/grid-tokio-japao-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments .image-second-pack {
+  background: url(../img/grid-caminhando-sub-pilares-mobile.jpg) no-repeat;
+  background-size: cover;
+  grid-area: img3;
+}
+
+@media screen and (min-width: 720px) {
+  .payments footer a {
+    display: none;
+  }
+
+
+}

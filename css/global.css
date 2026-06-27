@@ -51,14 +51,10 @@ body {
 .section-title {
   width: 280px;
   margin: 0 auto 32px;
-}
-
-.section-title h2 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-  margin: 0 auto;
   text-align: center;
 }
+
+
 
 .section-title hr {
   width: 180px;
@@ -72,12 +68,19 @@ body {
   font-size: 28px;
   margin: 0 0 24px;
   font-weight: var(--title-weight);
+  text-align: center;
+}
+
+
+.title-pack {
+  font-size: 32px;
 }
 
 .content-text {
   font-size: 20px;
   font-weight: var(--text-weight);
   line-height: 32px;
+  margin: 24px 0 24px;
 }
 
 .button {
@@ -98,6 +101,11 @@ section {
   width: 312px;
   margin: 0 auto 88px;
 }
+
+.button {
+  width: 100%;
+}
+
 
 section.hero {
   width: 100%;

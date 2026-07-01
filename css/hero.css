@@ -54,12 +54,11 @@ section {
 }
 
 .bottom-hero .hero-img-pack {
-  background: url(../img/bg-footer-pack-mobile.jpg) no-repeat;
+  background: url(../img/packs/bg-footer-pack-mobile.jpg) no-repeat;
   background-size: cover;
 }
-
 .hero .pack {
-  background: url(../img/montanha-mobile.jpg) no-repeat;
+  background: url(../img/packs/montanha-mobile.jpg) no-repeat;
   background-size: cover;
   height: 460px;
 }
@@ -86,7 +85,7 @@ section {
   }
 
   .bottom-hero .hero-img-pack {
-    background: url(../img/bg-footer-pack-tablet.jpg) no-repeat;
+    background: url(../img/packs/bg-footer-pack-tablet.jpg) no-repeat;
     background-size: cover;
   }
   .hero .description {
@@ -95,7 +94,7 @@ section {
   }
 
   .hero .pack {
-    background: url(../img/montanha-tablet.jpg) no-repeat;
+    background: url(../img/packs/montanha-tablet.jpg) no-repeat;
     background-size: cover;
     height: 620px;
   }
@@ -123,7 +122,7 @@ section {
   }
   .bottom-hero .hero-img-pack {
     height: 600px;
-    background: url(../img/bg-footer--pack-desktop.jpg) no-repeat;
+    background: url(../img/packs/bg-footer--pack-desktop.jpg) no-repeat;
     background-size: cover;
     background-position: center;
   }
@@ -133,7 +132,7 @@ section {
   }
 
   .hero .pack {
-    background: url(../img/montanha-desktop.jpg) no-repeat;
+    background: url(../img/packs/montanha-desktop.jpg) no-repeat;
     background-size: cover;
   }
   .hero .intro .section-title p {

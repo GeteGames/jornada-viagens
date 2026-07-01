@@ -33,6 +33,7 @@ input[type="checkbox"]:checked ~ nav {
   left: 0;
   width: 100%;
   background-color: var(--background-tertiary-color);
+  z-index: 1;
 }
 
 nav {

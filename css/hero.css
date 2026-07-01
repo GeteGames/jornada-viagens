@@ -10,6 +10,39 @@ section.bottom-hero {
   margin: 0;
 }
 
+.list-link .select-page a {
+  text-decoration: underline;
+}
+
+section {
+  margin: 88px auto 88px;
+}
+
+.hero article {
+  color: var(--background-primary-color);
+  position: relative;
+}
+
+.hero .intro {
+  position: absolute;
+  top: 65px;
+  left: 24px;
+}
+
+.hero .intro .section-title h2 {
+  font-size: 48px;
+  text-align: justify;
+}
+
+.hero .intro .section-title p {
+  line-height: 32px;
+  font-size: 20px;
+}
+
+.hero .intro .section-title hr {
+  margin: 16px 10px 32px;
+}
+
 .hero .hero-img {
   background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
@@ -23,6 +56,12 @@ section.bottom-hero {
 .bottom-hero .hero-img-pack {
   background: url(../img/bg-footer-pack-mobile.jpg) no-repeat;
   background-size: cover;
+}
+
+.hero .pack {
+  background: url(../img/montanha-mobile.jpg) no-repeat;
+  background-size: cover;
+  height: 460px;
 }
 
 .hero .description {
@@ -54,6 +93,21 @@ section.bottom-hero {
     padding: 88px 60px;
     font-size: 32px;
   }
+
+  .hero .pack {
+    background: url(../img/montanha-tablet.jpg) no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+  .hero .intro {
+    position: absolute;
+    top: 200px;
+    margin: 0 120px 69px;
+  }
+  .hero .intro .section-title p {
+    line-height: 1.5;
+    font-size: 32px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -76,6 +130,14 @@ section.bottom-hero {
 
   .hero .description {
     padding: 88px 120px;
+  }
+
+  .hero .pack {
+    background: url(../img/montanha-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+  .hero .intro .section-title p {
+    width: 579px;
   }
 }
 

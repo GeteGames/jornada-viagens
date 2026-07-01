@@ -27,6 +27,29 @@
   grid-area: img3;
 }
 
+.payments footer a {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.payments .image-first-pack {
+  background: url(../img/grid-casa-tradicional-japao-mobile.jpg) no-repeat;
+  background-size: cover;
+  grid-area: img1;
+}
+
+.payments .image-thirdy-colaspan-2-pack {
+  grid-area: img2;
+  background: url(../img/grid-tokio-japao-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments .image-second-pack {
+  background: url(../img/grid-caminhando-sub-pilares-mobile.jpg) no-repeat;
+  background-size: cover;
+  grid-area: img3;
+}
+
 @media screen and (min-width: 768px) {
   .payments .image-first {
     background: url(../img/grid-bala-aberta-com-roupas-tablet.png) no-repeat;
@@ -42,6 +65,32 @@
 
   .payments .image-second {
     background: url(../img/grid-duas-mulhes-e-ponte-tablet.png) no-repeat;
+    background-size: cover;
+    grid-area: img3;
+  }
+
+  .payments footer a {
+    display: none;
+  }
+
+  .payments .image-gallery {
+    width: 648px;
+  }
+
+  .payments .image-first-pack {
+    background: url(../img/grid-casa-tradicional-japao-tablet.jpg) no-repeat;
+    background-size: cover;
+    grid-area: img1;
+  }
+
+  .payments .image-thirdy-colaspan-2-pack {
+    grid-area: img2;
+    background: url(../img/grid-tokio-japao-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-second-pack {
+    background: url(../img/grid-caminhando-sub-pilares-tablet.jpg) no-repeat;
     background-size: cover;
     grid-area: img3;
   }
@@ -84,6 +133,31 @@
 
   .payments .image-second {
     background: url(../img/grid-duas-mulhes-e-ponte-desktop.png) no-repeat;
+    background-size: cover;
+    grid-area: img3;
+  }
+
+  .payments .content-container .image-gallery {
+    width: 790px;
+    flex-shrink: 0;
+    height: 520px;
+    margin: 0;
+  }
+
+  .payments .image-first-pack {
+    background: url(../img/grid-casa-tradicional-japao-desktop.jpg) no-repeat;
+    background-size: cover;
+    grid-area: img1;
+  }
+
+  .payments .image-thirdy-colaspan-2-pack {
+    grid-area: img2;
+    background: url(../img/grid-tokio-japao-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-second-pack {
+    background: url(../img/grid-caminhando-sub-pilares-desktop.jpg) no-repeat;
     background-size: cover;
     grid-area: img3;
   }
